@@ -20,3 +20,6 @@ class MnistLoader(DataLoader.DataLoader):
 
     def getTestData(self, count):
         return self.mnist.test.images, self.mnist.test.labels
+
+    def getDataShape(self):
+        return 28, 28, 10

@@ -1,0 +1,2 @@
+GradientDescentOptimizer=1
+AdamOptimizer=2

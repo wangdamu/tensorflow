@@ -25,3 +25,10 @@ class DataLoader:
         获取count数量的测试数据
         '''
         pass
+
+    def getDataShape(self):
+        '''
+        获取数量的shape
+        return row, height, outputLen
+        '''
+        pass
